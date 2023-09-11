@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>My K-means</title>
+    <link rel="stylesheet" href="style.css">
+</head>  
+
+<body>
+
+    <!-- 获取数据，如果要使用外部数据集，别点这个，点input -->
+    <button class="data_button" id="data_button">Start with random data</button>
+
+    <!-- 允许加载数据集，要求：二维，csv文件 -->
+    <input type="file" class="input_button">
+
+    <!-- 画布 -->
+    <canvas class="mycanvas" id="mycanvas"></canvas>
+
+    <!-- 羊 -->
+    <div class="img"></div>
+
+</body>
+
+<!-- K-means聚类实现及过程展示 -->
+<script src="main.js"></script>
+
+<!-- 背景线条效果 -->
+<script src="Mouse_Bg/line.js"></script>
+
+<!-- 山羊跟随鼠标效果 -->
+<script src="Mouse_Bg/sheep.js"></script> 
+
+</html>  
